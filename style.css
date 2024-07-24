@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-sizing: border-box;
+}
+header #logo{
+    font: 60px "Oleo Script";
+    color: #f5f3a0;
+    text-transform:uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+header ul li a{
+    font: 24px Quicksand;
+    padding: 20px;
+    color: #fffb00;
+    text-decoration: none;
+}
+
+
+main{
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    background:url("./images/ocean.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero{
+    width: 1050px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+#hero h1{
+    font: 64px Raleway;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#hero p{
+    font: 36px Quicksand;
+    color: #ffffff;
+    margin: 24px 0 32px;
+    font-weight: lighter;
+}
+#hero a{
+    font: 30px Quicksand;
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+#highlights h2{
+    text-align: center;
+    margin: 24px 0px;
+    font: 50px Quicksand;
+    text-transform: uppercase;
+    color:rgb(59, 65, 64);;
+    font-weight: 900;
+}
+#destinations {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    list-style: none;
+}
+#destinations ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#destinations li {
+    margin: 0 20px;
+    text-transform: uppercase;
+    width: 25%;
+    text-align: center;
+}
+#destinations li img{
+    height: 250px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+#destinations p{
+    margin: 20px 0px;
+    font: 26px Quicksand;
+    color: #7c7b7b;
+}
+strong{
+    color: rgb(0, 160, 117);
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(24, 24,24), rgb(25, 29, 29));
+    padding: 36px 0;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    height: 100px;
+    width: 100px;
+    padding:0px 50px;
+}
